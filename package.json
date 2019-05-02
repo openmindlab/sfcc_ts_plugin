@@ -1,0 +1,20 @@
+{
+  "name": "sfcc_ts_plugin",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "author": "Manuel Molaschi <manuel.molaschi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "prepare": "tsc -p .",
+    "pretest": "tsc -p .",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.2"
+  }
+}
